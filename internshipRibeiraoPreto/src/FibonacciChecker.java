@@ -23,16 +23,20 @@ public class FibonacciChecker {
         int previous = STARTER_NUMBER;
         int current = STARTER_NUMBER;
 
-        System.out.print("Sequência de Fibonacci: " + previous + " " + current + " ");
+        final StringBuilder sequence = new StringBuilder();
+        sequence.append("Sequência de Fibonacci: ")
+                .append(previous).append(" ")
+                .append(current).append(" ");
 
         int next = previous + current;
         while (next <= limit) {
-            System.out.print(next + " ");
+            sequence.append(next).append(" ");
             previous = current;
             current = next;
             next = previous + current;
         }
-        System.out.println();
+
+        System.out.println(sequence.toString().trim());
     }
 
     private static boolean isFibonacciNumber(int number) {

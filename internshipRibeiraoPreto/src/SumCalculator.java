@@ -11,6 +11,7 @@ public class SumCalculator {
             sum = sum + k;
         }
 
-        System.out.println("O valor final da some é ".concat(Integer.toString(sum)));
+        System.out.printf("O valor final da soma é %d%n", sum);
     }
+
 }

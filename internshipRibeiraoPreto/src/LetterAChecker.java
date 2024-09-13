@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class LetterAChecker {
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try (final Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite uma string com espaços e acentos para remover e verificar a ocorrência da letra 'a': ");
             String inputString = scanner.nextLine();
 
@@ -12,7 +12,7 @@ public class LetterAChecker {
 
             int count = countLetterA(cleanedString);
 
-            System.out.println("String digitada: ".concat(cleanedString));
+            System.out.printf("String digitada: %s%n", cleanedString);
             if (count > 0) {
                 System.out.printf("A letra 'a' aparece %d vezes na string.%n", count);
             } else {
@@ -23,9 +23,7 @@ public class LetterAChecker {
 
     private static String removeWhitespaceAndAccents(String input) {
         String normalized = Normalizer.normalize(input, Normalizer.Form.NFD);
-        String withoutAccents = normalized.replaceAll("\\p{M}", "");
-
-        return withoutAccents;
+        return normalized.replaceAll("\\p{M}", "");
     }
 
     private static int countLetterA(String input) {
@@ -37,4 +35,5 @@ public class LetterAChecker {
         }
         return count;
     }
+
 }
