@@ -5,7 +5,7 @@ public class LetterAChecker {
 
     public static void main(String[] args) {
         try (final Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Digite uma string com espaços e acentos para remover e verificar a ocorrência da letra 'a': ");
+            System.out.print("Digite uma string para remover e verificar a ocorrência da letra 'a': ");
             String inputString = scanner.nextLine();
 
             String cleanedString = removeWhitespaceAndAccents(inputString);
@@ -35,5 +35,4 @@ public class LetterAChecker {
         }
         return count;
     }
-
 }

@@ -5,7 +5,7 @@ public class FibonacciChecker {
     private static final int STARTER_NUMBER = 1;
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try (final Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite um número para verificar se pertence à sequência de Fibonacci: ");
             int numberToCheck = scanner.nextInt();
 
@@ -59,5 +59,4 @@ public class FibonacciChecker {
 
         return false;
     }
-
 }
