@@ -9,7 +9,7 @@ Este programa verifica se um número fornecido pertence à sequência de Fibonac
 
 ---
 
-## Desafio 2: Verificador da Letra 'A' e Remoção de Espaços
+## Desafio 2: Verificador da Letra 'A'
 
 ### Descrição
 Este programa verifica a existência da letra 'a' (maiúscula ou minúscula) em uma string fornecida pelo usuário, além de contar quantas vezes ela aparece. O programa também remove todos os espaços em branco da string antes de realizar a contagem, e então exibe a string processada juntamente com o número de ocorrências da letra 'a'.
