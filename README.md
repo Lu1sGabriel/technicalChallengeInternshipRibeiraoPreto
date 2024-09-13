@@ -1,6 +1,6 @@
-# Desafios de Programação feito em Java
+# Desafios de Programação - Prova Técnica
 
-Este repositório contém soluções para três desafios de programação, as quais foram feitos em Java. Os desafios demonstram a aplicação de princípios de **clean code** e o uso de recursos modernos do Java 17. Abaixo estão as descrições dos desafios:
+Este repositório contém soluções para uma prova técnica de um processo seletivo de estágio em Ribeirão Preto. A prova poderia ser feita em qualquer linguagem, mas optei por Java, aplicando os princípios de **clean code** e utilizando recursos modernos do Java 17.
 
 ## Desafio 1: Verificador de Sequência de Fibonacci
 
@@ -23,6 +23,12 @@ Este programa realiza um cálculo de soma baseado em um loop. Ele começa com um
 
 ---
 
+## Informações Adicionais
+
+Esses desafios fazem parte de uma prova técnica para um processo de estágio em Ribeirão Preto. A prova permitia o uso de qualquer linguagem de programação, mas as soluções foram desenvolvidas em **Java**, seguindo boas práticas e aplicando princípios de **clean code**.
+
+---
+
 ## Como Executar
 
 1. Clone o repositório.
@@ -30,4 +36,4 @@ Este programa realiza um cálculo de soma baseado em um loop. Ele começa com um
 3. Compile e execute o programa desejado.
 4. Siga as instruções exibidas no console para inserir os dados necessários.
 
-Cada um dos programas foi implementado seguindo os princípios de **clean code** e boas práticas modernas do **Java 17**.
+Cada um dos programas foi implementado utilizando boas práticas de **Java 17**.
